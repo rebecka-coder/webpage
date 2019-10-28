@@ -1,0 +1,53 @@
+<!--Uppgift Moment 5 - Webbtjänster, av Rebecka Högström HT-19 -->
+<!DOCTYPE html>
+<html lang="sv-SE">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--stylescheet CSS-->
+<link rel="stylesheet" type="text/css"  href="./scss/main.css">
+
+    <title>Moment 5 - Webbtjänster</title>
+</head>
+    <body class="container">
+        <section>
+            <h1>Moment 5 - Webbtjänster</h1>
+
+            <div class="mainContainer">
+                <h2>Kurser jag läst:</h2> 
+                
+                <table>
+                    <thead>
+                        <th>Kurskod: </th>
+                        <th>Kursnamn: </th>
+                        <th>Progression: </th>
+                        <th>Kursplan: </th>
+                        <th></th>
+                        <th></th>
+                    </thead>
+                    <tbody id ="output"></tbody>
+                </table>
+                
+      
+                <h2>Lägg till kurs:</h2> 
+                <div class="forms">
+                    <form id="addCourse">
+                        <label for="code">Kurskod: </label>
+                        <input type="text" id="code" name="code"> 
+                        <label for="name">Kursnamn: </label>
+                        <input type="text" id="name" name="name">
+                        <label for="prog">Progression: </label>
+                        <input type="text" id="prog" name="prog"> 
+                        <label for="plan">Kursplan: </label>
+                        <input type="text" id="plan" name="plan">
+        
+                        <input type="submit" id="submit" name="submitbtn" value="Lägg till kurs">
+                    </form>
+                </div>
+        </section>
+
+    </div>    
+    <script src="js/main.js"></script>
+</body>
+</html>
