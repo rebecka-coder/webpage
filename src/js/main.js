@@ -3,7 +3,7 @@
 document.getElementById('addCourse').addEventListener('submit', addCourse);
 
 //Länk till webbtjänsten
-const url = 'http://localhost:8080/fetch%20api/moment%205%20-%20rest%20api/webservice.php';
+const url = 'http://studenter.miun.se/~reho0301/dt173g/moment5/webservice/webservice.php';
 
 
 //Funktion för JSON
